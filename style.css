@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: salmon;
+    letter-spacing: 2px;
+    
+}
+hr{
+    color: black;
+    line-break: 15px;
+    line-clamp: 10%;
+    line-height: 20px;
+}
+h1{
+    margin-top: 0px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+.top-container{
+    padding-top: 50px;
+    text-align: center;
+}
+h2{
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    color: brown;
+}
+.hero{
+    text-align: center;
+    height: 1oovh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.photo img{
+    text-align: center;
+    width: fit-content;
+    border: 60%;
+    height: 400px;
+    width: 400px;
+    
+
+}
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.contact-section{
+    background: url(IMG.jpg);
+    background-size: cover;
+    padding: 50px;
+
+}
+.contact-section h2{
+    text-align: center;
+    color: brown;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    
+    margin: 50px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{ 
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px;
+    background: brown;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+.contact-form-btn{
+    float: inline-end;
+    border: 0;
+    background: brown;
+    color: black;
+    padding: 12px 50px;
+    border-radius: 20px;
+
+}
+.container{
+    box-shadow: 0 6px 8px rgba(0,0,0,.1);
+    padding: 15px 20px;
+    width: 300px;
+    border-radius: 8px;
+    transform: translate(-50%,-50%);
+}
+.container{
+    color: greenyellow;
+    background-color: thistle;
+}
+.container input,textarea{
+    padding: 8px 15px;
+    margin: 6px 0;
+    resize: none;
+    width: calc(30% - 15px);
+    font-size: 16px;
+}
+.container button{
+    width: 100%;
+    padding: 8px 0;
+    background-color: #1e88e5;
+    color: #fafafa;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.photo img{
+    position: absolute;
+    top: 25%;
+    right: 50%;
+    width: fit-content;
+    border: 60%;
+    height: 400px;
+    width: 400px;
+}
+.menu{
+    flex: 2;
+}
+.menu ul{
+    margin-left: 20px;
+    display: inline;
+}
+.menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    text-align: inherit;
+}
+.menu ul a{
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px 3px;
+    background-color: black;
+    box-shadow: 10px 10px 15px #fff -10px -10px 15px #262;
+}
+h3{
+    color: crimson;
+}
