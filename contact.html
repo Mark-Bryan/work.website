@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <header>
+            <p>Lazlo's Cartel</p>
+            <p>Your Best Vendor</p>
+        </header>
+        <main>
+            <p>Welcome to my contact form. Here, you will be able to contact us and request for goods of your own choice</p>
+            <p>Please, fill in the required modalities</p>
+        </main>
+        <form method="get">
+            <p><label for="customerName">Customer Name</label></p>
+            <p><input type="text" name="customerName" id="customerName" placeholder="Enter your name here"></p>
+
+            <p><label for="emailAddress">Email Address</label></p>
+            <p><input type="email" name="emailAddress" id="emailAddress" placeholder="your email@.com"></p>
+
+            <p><label for="customerNumber">Customer Number</label></p>
+            <p><input type="tel" name="customerNumber" id="customerNumber"placeholder="" pattern="[0-14]{4,15}"></p>
+
+            <p><label for="telephoneFirst">How would you prefer to be contacted</label></p>
+            <ul>
+                <li>
+                    <input type="radio" name="primaryContact" value="telephoneFirst">
+                    <label for="telephoneFirst">Telephone</label>
+                </li>
+                <li>
+                    <input type="radio" name="primaryContact" value="emailFirst">
+                    <label for="emailFirst">Email</label>
+                </li>
+            </ul>
+
+            <p>When and at what date would you like to get back to us?</p>
+            <ul>
+                <li>
+                    <p><label for="date">Date</label></p>
+                    <p><input type="date" name="date" id="date" placeholder="dd/mm/yy"></p>
+                </li>
+            </ul>
+            <p><input type="submit" name="save" value="save your information"></p>
+        </form>
+    </body>
+</html>
